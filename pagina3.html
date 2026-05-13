@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peso Pluma | Biografía</title>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      background:#0f0f0f;
+      color:white;
+      line-height:1.7;
+    }
+
+    header{
+      background:url('https://images.unsplash.com/photo-1501612780327-45045538702b?q=80&w=1600&auto=format&fit=crop') center/cover;
+      height:70vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+    }
+
+    header .overlay{
+      background:rgba(0,0,0,0.7);
+      padding:40px;
+      border-radius:20px;
+    }
+
+    header h1{
+      font-size:60px;
+      color:#ff4d6d;
+    }
+
+    header p{
+      margin-top:10px;
+      font-size:22px;
+    }
+
+    nav{
+      background:#1b1b1b;
+      padding:15px;
+      text-align:center;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin:0 15px;
+      font-size:18px;
+      transition:0.3s;
+    }
+
+    nav a:hover{
+      color:#ff4d6d;
+    }
+
+    .container{
+      width:90%;
+      max-width:1100px;
+      margin:auto;
+      padding:50px 0;
+    }
+
+    .bio{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:40px;
+      align-items:center;
+    }
+
+    .bio img{
+      width:100%;
+      border-radius:20px;
+      box-shadow:0 0 15px rgba(0,0,0,0.5);
+    }
+
+    .texto h2{
+      color:#ff4d6d;
+      margin-bottom:20px;
+      font-size:40px;
+    }
+
+    .texto p{
+      margin-bottom:18px;
+      font-size:18px;
+      color:#ddd;
+    }
+
+    .exitos{
+      margin-top:60px;
+    }
+
+    .exitos h2{
+      text-align:center;
+      color:#ff4d6d;
+      margin-bottom:30px;
+      font-size:40px;
+    }
+
+    .cards{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+      gap:25px;
+    }
+
+    .card{
+      background:#1f1f1f;
+      padding:30px;
+      border-radius:15px;
+      text-align:center;
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-8px);
+      background:#292929;
+    }
+
+    .card h3{
+      color:#ff4d6d;
+      margin-bottom:15px;
+      font-size:28px;
+    }
+
+    .card p{
+      color:#ccc;
+    }
+
+    footer{
+      background:black;
+      text-align:center;
+      padding:25px;
+      margin-top:50px;
+      color:#999;
+    }
+
+    @media(max-width:850px){
+
+      .bio{
+        grid-template-columns:1fr;
+      }
+
+      header h1{
+        font-size:42px;
+      }
+
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="overlay">
+      <h1>Peso Pluma</h1>
+      <p>La estrella internacional de los Corridos Tumbados</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="#biografia">Biograf&iacute;a</a>
+    <a href="#exitos">&Eacute;xitos</a>
+  </nav>
+
+  <section class="container" id="biografia">
+
+    <div class="bio">
+
+      <img src="Imagenes/Peso.jpg" alt="Peso Pluma">
+
+      <div class="texto">
+
+        <h2>Su Historia</h2>
+
+        <p>
+          Peso Pluma, cuyo nombre real es Hassan Emilio Kabande Laija,
+          naci&oacute; en Guadalajara, Jalisco, M&eacute;xico. Desde joven mostr&oacute;
+          inter&eacute;s por la m&uacute;sica y comenz&oacute; a aprender guitarra viendo
+          tutoriales y practicando canciones populares.
+        </p>
+
+        <p>
+          Con el paso del tiempo desarroll&oacute; un estilo único que mezcla
+          corridos tumbados, regional mexicano y m&uacute;sica urbana,
+          logrando conectar con una nueva generaci&oacute;n de fans.
+        </p>
+
+        <p>
+          Su popularidad explot&oacute; gracias a canciones virales y colaboraciones
+          con artistas reconocidos del g&eacute;nero mexicano y urbano,
+          convirti&eacute;ndose r&aacute;pidamente en una figura internacional.
+        </p>
+
+        <p>
+          Peso Pluma es conocido por su voz distintiva, su estilo moderno
+          y por llevar los corridos tumbados a escenarios y listas musicales
+          de todo el mundo.
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="exitos" id="exitos">
+
+      <h2>&Eacute;xitos Destacados</h2>
+
+      <div class="cards">
+
+        <div class="card">
+          <h3>Ella Baila Sola</h3>
+          <p>
+            Uno de los mayores &eacute;xitos internacionales del regional mexicano moderno.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>G&eacute;nesis</h3>
+          <p>
+            &Aacute;lbum que consolid&Oacute; a Peso Pluma como una estrella mundial.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Colaboraciones</h3>
+          <p>
+            Ha colaborado con Natanael Cano, Junior H y artistas urbanos famosos.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer>
+    <p>&nbsp;</p>
+  </footer>
+
+</body>
+</html>

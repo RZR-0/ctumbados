@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corridos Tumbados</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      background:#111;
+      color:white;
+      line-height:1.6;
+    }
+
+    header{
+      background:url('https://images.unsplash.com/photo-1511379938547-c1f69419868d?q=80&w=1600&auto=format&fit=crop') center/cover;
+      height:90vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+    }
+
+    header .contenido{
+      background:rgba(0,0,0,0.6);
+      padding:40px;
+      border-radius:15px;
+    }
+
+    header h1{
+      font-size:60px;
+      color:#ffb703;
+      margin-bottom:15px;
+    }
+
+    header p{
+      font-size:22px;
+    }
+
+    nav{
+      background:#222;
+      padding:15px;
+      text-align:center;
+      position:sticky;
+      top:0;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin:0 20px;
+      font-size:18px;
+      transition:0.3s;
+    }
+
+    nav a:hover{
+      color:#ffb703;
+    }
+
+    .container{
+      width:90%;
+      max-width:1200px;
+      margin:auto;
+      padding:50px 0;
+    }
+
+    .titulo{
+      text-align:center;
+      margin-bottom:40px;
+      font-size:40px;
+      color:#ffb703;
+    }
+
+    .artistas{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(300px,1fr));
+      gap:30px;
+    }
+
+    .card{
+      background:#1c1c1c;
+      border-radius:15px;
+      overflow:hidden;
+      transition:0.3s;
+      box-shadow:0 0 10px rgba(0,0,0,0.5);
+    }
+
+    .card:hover{
+      transform:translateY(-10px);
+    }
+
+    .card img{
+      width:100%;
+      height:350px;
+      object-fit:cover;
+    }
+
+    .card .info{
+      padding:20px;
+    }
+
+    .card h3{
+      color:#ffb703;
+      margin-bottom:10px;
+      font-size:28px;
+    }
+
+    .card p{
+      font-size:16px;
+    }
+
+    .musica{
+      background:#181818;
+      padding:60px 20px;
+      text-align:center;
+    }
+
+    .musica iframe{
+      margin-top:20px;
+      width:80%;
+      height:315px;
+      border:none;
+      border-radius:15px;
+    }
+
+    footer{
+      background:#000;
+      text-align:center;
+      padding:25px;
+      font-size:15px;
+      color:#aaa;
+    }
+
+    @media(max-width:768px){
+      header h1{
+        font-size:40px;
+      }
+
+      header p{
+        font-size:18px;
+      }
+
+      .musica iframe{
+        width:100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="contenido">
+      <h1>Corridos Tumbados</h1>
+      <p>La nueva generaci&oacute;n de la m&uacute;sica mexicana</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#artistas">Artistas</a>
+    <a href="#musica">M&uacute;sica</a>
+    <a href="#footer">Contacto</a>
+  </nav>
+
+  <section class="container" id="artistas">
+    <h2 class="titulo">Artistas Destacados</h2>
+
+    <div class="artistas">
+
+      <div class="card"><a href="pagina1.html"><img src="Imagenes/Natanael.jpg" width="1920" height="1280" border="0"></a>
+        <div class="info">
+          <h3>Natanael Cano</h3>
+          <p>
+            Considerado uno de los pioneros de los corridos tumbados,
+            Natanael Cano mezcl&oacute; el regional mexicano con trap y hip-hop,
+            revolucionando el g&eacute;nero.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <a href="pagina2.html"><img src="Imagenes/Junior.jpg" alt="Junior H" border="0"></a>
+        <div class="info">
+          <h3>Junior H</h3>
+          <p>
+            Junior H destaca por sus letras melanc&oacute;licas y estilo relajado.
+            Sus canciones conectan con millones de j&oacute;venes.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <a href="pagina3.html"><img src="Imagenes/Peso.jpg" alt="Peso Pluma" border="0"></a>
+        <div class="info">
+          <h3>Peso Pluma</h3>
+          <p>
+            Peso Pluma se convirti&oacute; en una estrella internacional gracias
+            a sus &eacute;xitos virales y colaboraciones en el g&eacute;nero urbano.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="musica" id="musica">
+    <h2 class="titulo">Video Musical</h2>
+
+    <p>Disfruta del estilo &uacute;nico de los corridos tumbados</p>
+
+    <iframe 
+      src="https://www.youtube.com/watch?v=DWRj2BB8YHs&list=RDDWRj2BB8YHs&start_radio=1"
+      allowfullscreen>
+    </iframe>
+  </section>
+
+  <footer id="footer">
+    <p>
+      
+    </p>
+  </footer>
+
+</body>
+</html>

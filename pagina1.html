@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Natanael Cano | Biografía</title>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      background:#111;
+      color:white;
+      line-height:1.7;
+    }
+
+    header{
+      background:url('https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?q=80&w=1600&auto=format&fit=crop') center/cover;
+      height:70vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+    }
+
+    header .overlay{
+      background:rgba(0,0,0,0.65);
+      padding:40px;
+      border-radius:15px;
+    }
+
+    header h1{
+      font-size:60px;
+      color:#ffb703;
+    }
+
+    header p{
+      margin-top:10px;
+      font-size:22px;
+    }
+
+    nav{
+      background:#1c1c1c;
+      padding:15px;
+      text-align:center;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin:0 15px;
+      font-size:18px;
+      transition:0.3s;
+    }
+
+    nav a:hover{
+      color:#ffb703;
+    }
+
+    .container{
+      width:90%;
+      max-width:1100px;
+      margin:auto;
+      padding:50px 0;
+    }
+
+    .bio{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:40px;
+      align-items:center;
+    }
+
+    .bio img{
+      width:100%;
+      border-radius:20px;
+      box-shadow:0 0 15px rgba(0,0,0,0.5);
+    }
+
+    .texto h2{
+      color:#ffb703;
+      margin-bottom:20px;
+      font-size:40px;
+    }
+
+    .texto p{
+      margin-bottom:18px;
+      font-size:18px;
+      color:#ddd;
+    }
+
+    .logros{
+      margin-top:60px;
+    }
+
+    .logros h2{
+      text-align:center;
+      color:#ffb703;
+      margin-bottom:30px;
+      font-size:40px;
+    }
+
+    .cards{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+      gap:25px;
+    }
+
+    .card{
+      background:#1f1f1f;
+      padding:30px;
+      border-radius:15px;
+      text-align:center;
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-8px);
+      background:#292929;
+    }
+
+    .card h3{
+      color:#ffb703;
+      margin-bottom:15px;
+      font-size:28px;
+    }
+
+    .card p{
+      color:#ccc;
+    }
+
+    footer{
+      background:black;
+      text-align:center;
+      padding:25px;
+      margin-top:50px;
+      color:#999;
+    }
+
+    @media(max-width:850px){
+
+      .bio{
+        grid-template-columns:1fr;
+      }
+
+      header h1{
+        font-size:42px;
+      }
+
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="overlay">
+      <h1>Natanael Cano</h1>
+      <p>El pionero de los Corridos Tumbados</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="#biografia">Biograf&iacute;a</a>
+    <a href="#logros">Logros</a>
+  </nav>
+
+  <section class="container" id="biografia">
+
+    <div class="bio">
+
+      <img src="Imagenes/Nata.jpg" alt="Natanael Cano">
+
+      <div class="texto">
+
+        <h2>Su Historia</h2>
+
+        <p>
+          Natanael Cano naci&oacute; en Hermosillo, Sonora, M&eacute;xico.
+          Desde muy joven mostr&oacute; inter&eacute;s por la m&uacute;sica regional mexicana,
+          aprendiendo a tocar guitarra y componiendo canciones inspiradas
+          en los corridos tradicionales.
+        </p>
+
+        <p>
+          Con el paso del tiempo comenz&oacute; a mezclar sonidos del trap,
+          hip-hop y m&uacute;sica urbana con los corridos mexicanos,
+          creando un estilo completamente nuevo conocido como
+          <strong>Corridos Tumbados</strong>.
+        </p>
+
+        <p>
+          Gracias a plataformas digitales y redes sociales,
+          Natanael logr&oacute; alcanzar fama internacional r&aacute;pidamente,
+          convirti&eacute;ndose en uno de los artistas m&aacute;s importantes
+          de la nueva generaci&oacute;n de m&uacute;sica mexicana.
+        </p>
+
+        <p>
+          Sus canciones hablan sobre la vida callejera,
+          el &eacute;xito, los lujos y las experiencias personales,
+          conectando con millones de j&oacute;venes en todo el mundo.
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="logros" id="logros">
+
+      <h2>Logros Destacados</h2>
+
+      <div class="cards">
+
+        <div class="card">
+          <h3>Corridos Tumbados</h3>
+          <p>
+            Revolucion&oacute; el regional mexicano creando un nuevo g&eacute;nero musical.          </p>
+        </div>
+
+        <div class="card">
+          <h3>&Eacute;xitos Mundiales</h3>
+          <ul>
+            <li data-sfc-cp="" jsaction="" jscontroller="oSLmPe" data-sfc-root="c" jsuid="pUoMvb_1s" data-sfc-cb="" data-hveid="CAIIAAgACBAQAQ" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px 0px 12px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><span data-sfc-cp="" jsaction="" jscontroller="fly6D" data-sfc-root="c" jsuid="pUoMvb_1t" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><strong jsaction="" jscontroller="zYmgkd" data-sfc-root="c" jsuid="pUoMvb_1u" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);">Amor Tumbado:
+                    <!--TgQPHd|[]-->
+              </strong> Considerada una de sus canciones m&aacute;s ic&oacute;nicas y rom&aacute;nticas dentro del g&eacute;nero.
+              <!--TgQPHd|[]-->
+              </span>
+                <!--TgQPHd|[]-->
+            </li>
+            <li data-sfc-cp="" jsaction="" jscontroller="oSLmPe" data-sfc-root="c" jsuid="pUoMvb_1v" data-sfc-cb="" data-hveid="CAIIAAgACBAQAg" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px 0px 12px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><span data-sfc-cp="" jsaction="" jscontroller="fly6D" data-sfc-root="c" jsuid="pUoMvb_1w" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><strong jsaction="" jscontroller="zYmgkd" data-sfc-root="c" jsuid="pUoMvb_1x" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);">AMG:
+                    <!--TgQPHd|[]-->
+              </strong> Un &eacute;xito masivo en plataformas, consolidando su impacto en 2022-2023.
+              <!--TgQPHd|[]-->
+              </span>
+                <!--TgQPHd|[]-->
+            </li>
+            <li data-sfc-cp="" jsaction="" jscontroller="oSLmPe" data-sfc-root="c" jsuid="pUoMvb_1y" data-sfc-cb="" data-hveid="CAIIAAgACBAQAw" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px 0px 12px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><span data-sfc-cp="" jsaction="" jscontroller="fly6D" data-sfc-root="c" jsuid="pUoMvb_1z" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><strong jsaction="" jscontroller="zYmgkd" data-sfc-root="c" jsuid="pUoMvb_20" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);">Soy El Diablo (Remix):
+                    <!--TgQPHd|[]-->
+              </strong> Tema clave que le dio gran proyecci&oacute;n, incluyendo la versi&oacute;n con Bad Bunny.
+              <!--TgQPHd|[]-->
+              </span>
+                <!--TgQPHd|[]-->
+            </li>
+            <li data-sfc-cp="" jsaction="" jscontroller="oSLmPe" data-sfc-root="c" jsuid="pUoMvb_21" data-sfc-cb="" data-hveid="CAIIAAgACBAQBA" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px 0px 12px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><span data-sfc-cp="" jsaction="" jscontroller="fly6D" data-sfc-root="c" jsuid="pUoMvb_22" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><strong jsaction="" jscontroller="zYmgkd" data-sfc-root="c" jsuid="pUoMvb_23" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);">El Drip:
+                    <!--TgQPHd|[]-->
+              </strong> Sencillo de 2019 que defini&oacute; su estilo y popularidad temprana.
+              <!--TgQPHd|[]-->
+              </span>
+                <!--TgQPHd|[]-->
+            </li>
+            <li data-sfc-cp="" jsaction="" jscontroller="oSLmPe" data-sfc-root="c" jsuid="pUoMvb_24" data-sfc-cb="" data-hveid="CAIIAAgACBAQBQ" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px 0px 12px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><span data-sfc-cp="" jsaction="" jscontroller="fly6D" data-sfc-root="c" jsuid="pUoMvb_25" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><strong jsaction="" jscontroller="zYmgkd" data-sfc-root="c" jsuid="pUoMvb_26" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><span jsaction="rcuQ6b:&pUoMvb_27|npT2md" jscontroller="CCvEPd" data-sfc-root="c" jsuid="pUoMvb_27" data-wiz-uids="pUoMvb_28" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);">Diamantes
+                      <!--TgQPHd|[]-->
+              </span>:
+              <!--TgQPHd|[]-->
+              </strong> Canci&oacute;n con alto volumen de reproducciones en Spotify.
+              <!--TgQPHd|[]-->
+              </span>
+                <!--TgQPHd|[]-->
+            </li>
+            <li data-sfc-cp="" jsaction="" jscontroller="oSLmPe" data-sfc-root="c" jsuid="pUoMvb_29" data-sfc-cb="" data-hveid="CAIIAAgACBAQBg" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px 0px 12px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><span data-sfc-cp="" jsaction="" jscontroller="fly6D" data-sfc-root="c" jsuid="pUoMvb_2a" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><strong jsaction="" jscontroller="zYmgkd" data-sfc-root="c" jsuid="pUoMvb_2b" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><span jsaction="rcuQ6b:&pUoMvb_2c|npT2md" jscontroller="CCvEPd" data-sfc-root="c" jsuid="pUoMvb_2c" data-wiz-uids="pUoMvb_2d" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);">Disfruto lo Malo
+                      <!--TgQPHd|[]-->
+              </span>:
+              <!--TgQPHd|[]-->
+              </strong> Una colaboraci&oacute;n destacada con Junior H.
+              <!--TgQPHd|[]-->
+              </span>
+                <!--TgQPHd|[]-->
+            </li>
+            <li data-sfc-cp="" jsaction="" jscontroller="oSLmPe" data-sfc-root="c" jsuid="pUoMvb_2e" data-sfc-cb="" data-hveid="CAIIAAgACBAQBw" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px 0px 12px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><span data-sfc-cp="" jsaction="" jscontroller="fly6D" data-sfc-root="c" jsuid="pUoMvb_2f" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><strong jsaction="" jscontroller="zYmgkd" data-sfc-root="c" jsuid="pUoMvb_2g" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><span jsaction="rcuQ6b:&pUoMvb_2h|npT2md" jscontroller="CCvEPd" data-sfc-root="c" jsuid="pUoMvb_2h" data-wiz-uids="pUoMvb_2i" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);">CH y la Pizza
+                      <!--TgQPHd|[]-->
+              </span>:
+              <!--TgQPHd|[]-->
+              </strong> &Eacute;xito colaborativo con Fuerza Regida.
+              <!--TgQPHd|[]-->
+              </span>
+                <!--TgQPHd|[]-->
+            </li>
+            <li data-sfc-cp="" jsaction="" jscontroller="oSLmPe" data-sfc-root="c" jsuid="pUoMvb_2j" data-sfc-cb="" data-hveid="CAIIAAgACBAQCA" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px 0px 12px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><span data-sfc-cp="" jsaction="" jscontroller="fly6D" data-sfc-root="c" jsuid="pUoMvb_2k" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><strong jsaction="" jscontroller="zYmgkd" data-sfc-root="c" jsuid="pUoMvb_2l" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><span jsaction="rcuQ6b:&pUoMvb_2m|npT2md" jscontroller="CCvEPd" data-sfc-root="c" jsuid="pUoMvb_2m" data-wiz-uids="pUoMvb_2n" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);">Pacas Verdes
+                      <!--TgQPHd|[]-->
+              </span>:
+              <!--TgQPHd|[]-->
+            </strong> Uno de sus temas fundamentales en el inicio de los corridos tumbados.</span></li>
+          </ul>
+          <p>&nbsp;</p>
+        </div>
+
+        <div class="card">
+          <h3>Colaboraciones</h3>
+          <div data-bfc="" data-ved="2ahUKEwi0z__c5raUAxWFJe8CHWizCrQQi4wTegoIAggACAAIDxAA" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);">
+            <ul jsaction="" jscontroller="mPWODf" data-sfc-root="c" jsuid="sIDZie_1g" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);">
+              <li data-sfc-cp="" jsaction="" jscontroller="oSLmPe" data-sfc-root="c" jsuid="sIDZie_1h" data-sfc-cb="" data-hveid="CAIIAAgACA8QAQ" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px 0px 12px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><span data-sfc-cp="" jsaction="" jscontroller="fly6D" data-sfc-root="c" jsuid="sIDZie_1i" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><strong jsaction="" jscontroller="zYmgkd" data-sfc-root="c" jsuid="sIDZie_1j" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);">Peso Pluma &amp; Gabito Ballesteros:
+                      <!--TgQPHd|[]-->
+                </strong> AMG, PRC.
+                <!--TgQPHd|[]-->
+                </span>
+                  <!--TgQPHd|[]-->
+              </li>
+              <li data-sfc-cp="" jsaction="" jscontroller="oSLmPe" data-sfc-root="c" jsuid="sIDZie_1k" data-sfc-cb="" data-hveid="CAIIAAgACA8QAg" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px 0px 12px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><span data-sfc-cp="" jsaction="" jscontroller="fly6D" data-sfc-root="c" jsuid="sIDZie_1l" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><strong jsaction="" jscontroller="zYmgkd" data-sfc-root="c" jsuid="sIDZie_1m" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);">Belinda:
+                      <!--TgQPHd|[]-->
+                </strong> 300 Noches (una balada norte&ntilde;a muy popular).
+                <!--TgQPHd|[]-->
+                </span>
+                  <!--TgQPHd|[]-->
+              </li>
+              <li data-sfc-cp="" jsaction="" jscontroller="oSLmPe" data-sfc-root="c" jsuid="sIDZie_1n" data-sfc-cb="" data-hveid="CAIIAAgACA8QAw" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px 0px 12px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><span data-sfc-cp="" jsaction="" jscontroller="fly6D" data-sfc-root="c" jsuid="sIDZie_1o" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><strong jsaction="" jscontroller="zYmgkd" data-sfc-root="c" jsuid="sIDZie_1p" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);">Fuerza Regida:
+                      <!--TgQPHd|[]-->
+                </strong> Ch y la Pizza.
+                <!--TgQPHd|[]-->
+                </span>
+                  <!--TgQPHd|[]-->
+              </li>
+              <li data-sfc-cp="" jsaction="" jscontroller="oSLmPe" data-sfc-root="c" jsuid="sIDZie_1q" data-sfc-cb="" data-hveid="CAIIAAgACA8QBA" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px 0px 12px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><span data-sfc-cp="" jsaction="" jscontroller="fly6D" data-sfc-root="c" jsuid="sIDZie_1r" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><strong jsaction="" jscontroller="zYmgkd" data-sfc-root="c" jsuid="sIDZie_1s" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);">Oscar Maydon:
+                      <!--TgQPHd|[]-->
+                </strong> Madonna, Proyecto X.
+                <!--TgQPHd|[]-->
+                </span>
+                  <!--TgQPHd|[]-->
+              </li>
+              <li data-sfc-cp="" jsaction="" jscontroller="oSLmPe" data-sfc-root="c" jsuid="sIDZie_1t" data-sfc-cb="" data-hveid="CAIIAAgACA8QBQ" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px 0px 12px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><span data-sfc-cp="" jsaction="" jscontroller="fly6D" data-sfc-root="c" jsuid="sIDZie_1u" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><strong jsaction="" jscontroller="zYmgkd" data-sfc-root="c" jsuid="sIDZie_1v" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);">Bizarrap:
+                      <!--TgQPHd|[]-->
+                </strong> BZRP Music Sessions, Vol. 59.
+                <!--TgQPHd|[]-->
+                </span>
+                  <!--TgQPHd|[]-->
+              </li>
+              <li data-sfc-cp="" jsaction="" jscontroller="oSLmPe" data-sfc-root="c" jsuid="sIDZie_1w" data-sfc-cb="" data-hveid="CAIIAAgACA8QBg" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px 0px 12px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><span data-sfc-cp="" jsaction="" jscontroller="fly6D" data-sfc-root="c" jsuid="sIDZie_1x" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><strong jsaction="" jscontroller="zYmgkd" data-sfc-root="c" jsuid="sIDZie_1y" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);">Junior H:
+                      <!--TgQPHd|[]-->
+                </strong> Rockstar.
+                <!--TgQPHd|[]-->
+                </span>
+                  <!--TgQPHd|[]-->
+              </li>
+              <li data-sfc-cp="" jsaction="" jscontroller="oSLmPe" data-sfc-root="c" jsuid="sIDZie_1z" data-sfc-cb="" data-hveid="CAIIAAgACA8QBw" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px 0px 12px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><span data-sfc-cp="" jsaction="" jscontroller="fly6D" data-sfc-root="c" jsuid="sIDZie_20" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><strong jsaction="" jscontroller="zYmgkd" data-sfc-root="c" jsuid="sIDZie_21" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);">Luis R Conr&iacute;quez:
+                      <!--TgQPHd|[]-->
+                </strong> Mi Bello &Aacute;ngel, y diversos temas en el &aacute;lbum <em jsaction="" jscontroller="yHWXO" data-sfc-root="c" jsuid="sIDZie_22" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);">Nata Montana
+                  <!--TgQPHd|[]-->
+                  </em>.
+                <!--TgQPHd|[]-->
+                </span>
+                  <!--TgQPHd|[]-->
+              </li>
+              <li data-sfc-cp="" jsaction="" jscontroller="oSLmPe" data-sfc-root="c" jsuid="sIDZie_23" data-sfc-cb="" data-hveid="CAIIAAgACA8QCA" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px 0px 12px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><span data-sfc-cp="" jsaction="" jscontroller="fly6D" data-sfc-root="c" jsuid="sIDZie_24" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><strong jsaction="" jscontroller="zYmgkd" data-sfc-root="c" jsuid="sIDZie_25" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);">Steve Aoki:
+                      <!--TgQPHd|[]-->
+                </strong> Nataaoki.</span><!--TgQPHd|[]-->
+              </li>
+              <!--TgQPHd|[]-->
+            </ul>
+          </div>
+          <div data-bfc="" data-ved="2ahUKEwi0z__c5raUAxWFJe8CHWizCrQQi4wTegoIAggACAAIFBAA" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);">
+            <div data-sfc-cp="" jsaction="" jscontroller="TDBkbc" data-sfc-root="c" jsuid="sIDZie_2g" data-sfc-cb="" data-hveid="CAIIAAgACBQQAQ" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><strong jsaction="" jscontroller="zYmgkd" data-sfc-root="c" jsuid="sIDZie_2h" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);">&Aacute;lbum <em jsaction="" jscontroller="yHWXO" data-sfc-root="c" jsuid="sIDZie_2i" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);">Nata Montana
+                    <!--TgQPHd|[]-->
+              </em> (2023) Colaboraciones:
+              <!--TgQPHd|[]-->
+              </strong><br jsaction="" jscontroller="Gy8rfb" data-sfc-root="c" jsuid="sIDZie_2j" data-sfc-pl="|[]" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);">
+              El &aacute;lbum cuenta con participaciones de: </div>
+          </div>
+          <div data-bfc="" data-ved="2ahUKEwi0z__c5raUAxWFJe8CHWizCrQQi4wTegoIAggACAAIFRAA" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);">
+            <ul jsaction="" jscontroller="mPWODf" data-sfc-root="c" jsuid="sIDZie_2n" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);">
+              <li data-sfc-cp="" jsaction="" jscontroller="oSLmPe" data-sfc-root="c" jsuid="sIDZie_2o" data-sfc-cb="" data-hveid="CAIIAAgACBUQAQ" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px 0px 12px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><span data-sfc-cp="" jsaction="" jscontroller="fly6D" data-sfc-root="c" jsuid="sIDZie_2p" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);">Tito Torbellino Jr
+                    <!--TgQPHd|[]-->
+                </span>
+                  <!--TgQPHd|[]-->
+              </li>
+              <li data-sfc-cp="" jsaction="" jscontroller="oSLmPe" data-sfc-root="c" jsuid="sIDZie_2q" data-sfc-cb="" data-hveid="CAIIAAgACBUQAg" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px 0px 12px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><span data-sfc-cp="" jsaction="" jscontroller="fly6D" data-sfc-root="c" jsuid="sIDZie_2r" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);">Hernan Trejo
+                    <!--TgQPHd|[]-->
+                </span>
+                  <!--TgQPHd|[]-->
+              </li>
+              <li data-sfc-cp="" jsaction="" jscontroller="oSLmPe" data-sfc-root="c" jsuid="sIDZie_2s" data-sfc-cb="" data-hveid="CAIIAAgACBUQAw" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px 0px 12px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><span data-sfc-cp="" jsaction="" jscontroller="fly6D" data-sfc-root="c" jsuid="sIDZie_2t" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);">Amilkar Galaviz
+                    <!--TgQPHd|[]-->
+                </span>
+                  <!--TgQPHd|[]-->
+              </li>
+              <li data-sfc-cp="" jsaction="" jscontroller="oSLmPe" data-sfc-root="c" jsuid="sIDZie_2u" data-sfc-cb="" data-hveid="CAIIAAgACBUQBA" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px 0px 12px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><span data-sfc-cp="" jsaction="" jscontroller="fly6D" data-sfc-root="c" jsuid="sIDZie_2v" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);">Chino Pacas
+                    <!--TgQPHd|[]-->
+                </span>
+                  <!--TgQPHd|[]-->
+              </li>
+              <li data-sfc-cp="" jsaction="" jscontroller="oSLmPe" data-sfc-root="c" jsuid="sIDZie_2w" data-sfc-cb="" data-hveid="CAIIAAgACBUQBQ" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px 0px 12px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);"><span data-sfc-cp="" jsaction="" jscontroller="fly6D" data-sfc-root="c" jsuid="sIDZie_2x" data-sfc-cb="" data-processed="true" data-copy-service-computed-style="font-family: 'Google Sans', Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px; text-decoration: none solid rgb(10, 10, 10); border-bottom: 0px none rgb(10, 10, 10);">Dan Sanchez
+                    <!--TgQPHd|[]-->
+              </span></li>
+            </ul>
+          </div>
+          <p>&nbsp;</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer>
+    <p>&nbsp;</p>
+  </footer>
+
+</body>
+</html>
